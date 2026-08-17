@@ -71,7 +71,7 @@ rybbit-backup-retention-days: 7
 
 digitalocean-name: rybbit-digitalocean
 digitalocean-region: ams3
-digitalocean-size: s-4vcpu-8gb
+digitalocean-size: s-2vcpu-4gb
 digitalocean-image: ubuntu-24-04-x64
 digitalocean-ssh-keys: "58495393"
 
