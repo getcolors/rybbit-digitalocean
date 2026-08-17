@@ -49,7 +49,7 @@ rybbit-backup-retention-days: 7
 
 # --- DigitalOcean -----------------------------------------------------------
 
-digitalocean-name: rybbit-ams3
+digitalocean-name: rybbit-digitalocean
 digitalocean-region: ams3
 digitalocean-size: s-4vcpu-8gb
 digitalocean-image: ubuntu-24-04-x64
