@@ -35,6 +35,14 @@ rybbit-acceptance-site-domain: colors-acceptance.invalid
 
 rybbit-host: rybbit.bigconfig.online
 
+# Serve through the Cloudflare proxy so the droplet's address is not published
+# in DNS. The Caddyfile already trusts Cloudflare's ranges, so client addresses
+# still come from X-Forwarded-For rather than the edge. Note that SSH to the
+# hostname stops resolving to the droplet once this is on -- converges are
+# unaffected because Ansible uses the address OpenTofu outputs, but an ad-hoc
+# ssh needs the origin address.
+cloudflare-proxied: true
+
 # Pinned official images for multi-container stack
 postgres-image: postgres:17-alpine
 clickhouse-image: clickhouse/clickhouse-server:24.8-alpine
