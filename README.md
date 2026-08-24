@@ -1,5 +1,10 @@
 # rybbit-digitalocean
 
+> **Decommissioned 2026-08-24.** The droplet and DNS record were destroyed
+> after `rybbit.getcolors.ai` moved to [`rybbit-vultr`](https://github.com/getcolors/rybbit-vultr),
+> restored from the final backup `rybbit-backup/rybbit-digitalocean/rybbit-20260824T093000Z.tar.gz`
+> (kept in R2 indefinitely). This repository is retained as history.
+
 Desired state for a production-oriented single-node Rybbit web & product analytics deployment on DigitalOcean.
 
 ## Architecture
