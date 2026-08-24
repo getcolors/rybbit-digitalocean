@@ -4,7 +4,7 @@ Desired state for a production-oriented single-node Rybbit web & product analyti
 
 ## Architecture
 
-- **Domain**: `https://rybbit.bigconfig.online`
+- **Domain**: `https://rybbit.getcolors.ai`
 - **Location**: `ams3` (Amsterdam)
 - **Droplet**: `s-4vcpu-8gb` on Ubuntu 24.04
 - **Databases**:
@@ -26,12 +26,12 @@ Desired state for a production-oriented single-node Rybbit web & product analyti
 
 ```sh
 # Health check
-curl -fsS https://rybbit.bigconfig.online/api/health
+curl -fsS https://rybbit.getcolors.ai/api/health
 
 # Send synthetic test event
 curl -fsS -X POST -H 'content-type: application/json' \
   --data '{"name":"pageview","site_id":"benchmark","data":{"path":"/test"}}' \
-  https://rybbit.bigconfig.online/api/track
+  https://rybbit.getcolors.ai/api/track
 
 # Run backup service on host
 ssh root@SERVER 'systemctl start rybbit-backup.service'

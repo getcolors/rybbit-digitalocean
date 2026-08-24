@@ -4,7 +4,7 @@
 
 Desired state for `rybbit-digitalocean`: Rybbit privacy-friendly web & product
 analytics stack on one DigitalOcean Droplet in Amsterdam, published at
-`https://rybbit.bigconfig.online` through Cloudflare and Caddy. Behavior lives in
+`https://rybbit.getcolors.ai` through Cloudflare and Caddy. Behavior lives in
 `../rybbit`.
 
 Tracked source is `colors.yml`, toolchain and documentation, the installed

@@ -33,7 +33,7 @@ rybbit-disable-signup: true
 # converges do not write test rows into your analytics. Created on demand.
 rybbit-acceptance-site-domain: colors-acceptance.invalid
 
-rybbit-host: rybbit.bigconfig.online
+rybbit-host: rybbit.getcolors.ai
 
 # Serve through the Cloudflare proxy so the droplet's address is not published
 # in DNS. The Caddyfile already trusts Cloudflare's ranges, so client addresses
