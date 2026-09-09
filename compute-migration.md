@@ -1,6 +1,6 @@
 # Shared compute rollout
 
-Installed package: `getcolors/rybbit` at published revision `cd61ec1dfd9c1cfc887c038e3dba8e4c08058923`.
+Installed package: `getcolors/rybbit` at published revision `91524a5d2b00b99562ae2bb45e31a869848dab84`.
 The installed skill directories and root launchers were copied from a verified
 Skills CLI installation of that revision. This remains a manual installation; no lockfile was invented.
 
@@ -27,4 +27,4 @@ application health.
 
 Outstanding live-operation prerequisites:
 
-- Before any real operation, configure ssh-private-key-path for the existing external provider key. No identity path was guessed and no key mode was changed.
+- Before any real operation, verify working operator or SSH-agent access for the existing external provider key, or set ssh-private-key-path to its matching identity. No identity path was guessed and no key mode was changed.
